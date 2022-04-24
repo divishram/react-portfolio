@@ -1,0 +1,36 @@
+[
+    {
+        "id":1,
+        "name": "Hospital Project",
+        "technologies": "C# ASP.NET"
+    },
+
+    {
+        "id": 2,
+        "name": "Covid API",
+        "technologies": "Node.JS"
+    },
+
+    {
+        "id": 3,
+        "name": "Gym Website",
+        "technologies": "HTML CSS"
+    },
+
+    {
+        "id": 4,
+        "name": "PHP Back-end",
+        "technologies": "PHP MySQL"
+
+    },
+
+    {
+        "id": 5,
+        "name": "C#"
+    },
+
+    {
+        "id": 6,
+        "name": "SQL"
+    }
+]
