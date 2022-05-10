@@ -11,13 +11,13 @@ const Project = () => {
       return (
 
         <div classname="portfolio" id="portfolio">
-        <h1>Works {Data[0].name}</h1>
+        <h1>Works</h1>
         <div classname="projects">
           <div>
             <a>
               <img src={Hospital} alt="Hospital Building" width={300} height={200} />
               <div classname="caption">
-                <h3>Hospital Project</h3>
+                <h3><a href='https://github.com/divishram/HospitalProject-1'>Hospital Project</a></h3>
                 <p>Technologies Used: {Data[0].technologies}</p>
                 <p>The group developer a full MVP
                   for a hospital. We included things like
@@ -30,7 +30,7 @@ const Project = () => {
             <a>
               <img src={Covid} alt="Covid Country API" width={300} height={200}  />
               <div classname="caption">
-                <h4>Covid-19 Country API</h4>
+                <h4><a href='https://github.com/divishram/covid-api'>Covid-19 Country API</a></h4>
                 <p>Technologies Used: {Data[1].technologies}</p>
                 <p>
                   The project used 2 APIs and an open data source. Axios was used
@@ -45,7 +45,7 @@ const Project = () => {
             <a>
               <img src={Gym} alt="Gym website" width={300} height={200}  />
               <div classname="caption">
-                <h3>Gym website</h3>
+                <h3><a href='http://gym-website.epizy.com/?i=1'>Gym website</a></h3>
                 <p>Technologies Used: {Data[2].technologies} </p>
                 <p>This project was used to test flexbox.
                 The website is response so if you change the browser
@@ -58,7 +58,7 @@ const Project = () => {
             <a>
               <img src={CMS} alt="CMS back-end" width={300} height={200}  />
               <div classname="caption">
-                <h3>CMS back-end</h3>
+                <h3><a href='https://github.com/divishram/php-cms'>CMS back-end</a></h3>
                 <p>Technologies Used: {Data[3].technologies} </p>
                 <p>This is supposed to
                   be the back-end of our portfolio.
